@@ -1,0 +1,49 @@
+/* Derrière le header*/
+header{
+    background: url("http://i.stack.imgur.com/JICXS.jpg");
+    padding-top: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius:5px;
+    margin: 25px;
+    font-size: 22px
+  }
+  
+
+  /* Navigation */
+#menu {
+	font-family: 'Amatic SC', cursive;
+}
+#menu ul { /* on enlève les points de la liste */ 
+ padding:0; 
+ list-style-type:none; 
+ text-align:center; 
+ } 
+#menu li { /* blocs */
+ float:left; 
+ background-color:black;
+ border-radius: 5px;
+ }
+#menu li a { /* présentation des blocs */
+ display:block;
+ width:100px;
+ color:white;
+ text-decoration:none; 
+ padding:5px; 
+ } 
+#menu li a:hover {
+ color:#336666;
+ }
+ #menu ul li ul { /* dissimule les choix */
+ display:none;
+ } 
+#menu ul li:hover ul { /* fait apparaître les choix quand on survole */
+ display:block;
+ }
+#menu li:hover ul li { /* Les sous-menus s'alignent les uns en dessous des autres*/
+ float:none;
+ } 
+ #menu li ul { /* la structure de la page est conservée */
+ position:absolute;
+ }
